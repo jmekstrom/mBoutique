@@ -15,7 +15,7 @@ First we will start by setting up our gitHub repository
 - Clone this repo. <a href="https://github.com/Learning-Fuze/C5_mboutique/tree/git_help#step-3---cloning-the-repo" target="_blank">Need Help?</a>
 
 ## Assignment 1
-<a href="https://github.com/Learning-Fuze/C5_mboutique/tree/assignment_1#mboutique" target="_blank">Click here for assignment 1</a>
+####<a href="https://github.com/Learning-Fuze/C5_mboutique/tree/assignment_1#mboutique" target="_blank">Click here for assignment 1</a>
 
 ### Status Updates
 
