@@ -20,11 +20,16 @@ First we will start by setting up our gitHub repository
 ### Status Updates
 
 #####Status update due @ 9pm 6/30/2015 - cm1
+Commit Message:
+ - `cm1 - assignment 1 [status]`
 #####Status update due @ 10am 7/1/2015 - cm2
+Commit Message:
+ - `cm2 - assignment 1 [status]`
 #####Status update due @ 9pm 7/1/2015 - cm3
+Commit Message:
+ - `cm3 - assignment 1 [status]`
 
-Use the following commit message for your status updates:
-- `cm# - assignment 1 [status]` Replace # with commit number and replace [status] with one of the following
+replace [status] with one of the following
 	- complete
 	- in-progress
 	- roadblocked
