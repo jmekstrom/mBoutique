@@ -19,19 +19,19 @@ First we will start by setting up our gitHub repository
 
 ### Status Updates
 
-#####Status update due @ 9pm 6/30/2015
-#####Status update due @ 10am 7/1/2015
-#####Status update due @ 9pm 7/1/2015
+#####Status update due @ 9pm 6/30/2015 - cm1
+#####Status update due @ 10am 7/1/2015 - cm2
+#####Status update due @ 9pm 7/1/2015 - cm3
 
 Use the following commit message for your status updates:
-- `mboutique - assignment 1 [status]` Replace [status] with one of the following
+- `cm# - assignment 1 [status]` Replace # with commit number and replace [status] with one of the following
 	- complete
 	- in-progress
 	- roadblocked
 
 ### Pull Request
 
-#####Pull Request due @ 10am
+#####Pull Request due @ 10am 7/2/2015
 
 Use the following title for your pull request
 - `Your Name - [assignment 1]`
