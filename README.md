@@ -17,13 +17,15 @@ First we will start by setting up our gitHub repository
 ## Assignment 1
 <a href="https://github.com/Learning-Fuze/C5_mboutique/tree/assignment_1#mboutique" target="_blank">Click here for assignment 1</a>
 
-####Status update due @ 9pm 6/30/2015
 Commit message:
-- `mboutique home page [status]`
+- `mboutique Assignment 1 [status]`
 	Replace [status] with one of the following
 	- Complete
 	- In-progress
-	- Roadblocked  
+	- Roadblocked 
+
+####Status update due @ 9pm 6/30/2015
+####Status update due @ 10am 7/1/2015 
 
 ## Assignments 2-4
 <a href="https://github.com/Learning-Fuze/C5_mboutique/tree/assignment_2#mboutique" target="_blank">Click here for assignment 2</a>
