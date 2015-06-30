@@ -34,7 +34,7 @@ Use the following commit message for your status updates:
 #####Pull Request due @ 10am 7/2/2015
 
 Use the following title for your pull request
-- `Your Name - [assignment 1]`
+- `Your Name - PR#1 [assignment 1]`
 
 ## Assignments 2-4
 <a href="https://github.com/Learning-Fuze/C5_mboutique/tree/assignment_2#mboutique" target="_blank">Click here for assignment 2</a>
