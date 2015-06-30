@@ -21,12 +21,20 @@ First we will start by setting up our gitHub repository
 
 #####Status update due @ 9pm 6/30/2015
 #####Status update due @ 10am 7/1/2015
+#####Status update due @ 9pm 7/1/2015
 
 Use the following commit message for your status updates:
 - `mboutique - assignment 1 [status]` Replace [status] with one of the following
 	- complete
 	- in-progress
 	- roadblocked
+
+### Pull Request
+
+#####Pull Request due @ 10am
+
+Use the following title for your pull request
+- `Your Name - [assignment 1]`
 
 ## Assignments 2-4
 <a href="https://github.com/Learning-Fuze/C5_mboutique/tree/assignment_2#mboutique" target="_blank">Click here for assignment 2</a>
