@@ -35,9 +35,9 @@ Commit Message:
  - `cm3 - assignment 1 [status]`
 
 replace [status] with one of the following
-	- complete
-	- in-progress
-	- roadblocked
+- complete
+- in-progress
+- roadblocked
 
 ### Pull Request
 
