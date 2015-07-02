@@ -1,1 +1,206 @@
-/* Add your CSS here */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #515151;
+}
+
+#nav_bar{
+	height: 72px;
+	width: 1000px;
+	background: #FFFABE;
+	position: relative;
+}
+
+.nav_items{
+	margin: 0;
+	padding: 0;
+}
+
+#nav_img {
+	position: absolute;
+	top: 20px;
+	left: 30px;
+
+}
+
+#nav_links {
+	vertical-align: middle;
+	float: right;
+	height: 100%;
+	width: 80%;
+	
+}
+ul.nav_list{
+	margin-top: 30px;
+	text-align: center;
+
+
+}
+
+li.nav_list {
+	font-size: 16px;
+	display: inline-block;
+	list-style-type: none;
+	text-align: center;
+	height: 100%;
+	width: auto;
+	margin-right: 50px;
+	padding: 0;
+	text-transform: uppercase;	
+}
+
+li:hover {
+	color: #D42551;
+}
+
+#background_img{
+	height: 400px;
+	width: 1000px;
+}
+
+.body{
+	display: inline-block;
+	height: 500px;
+	width: 1000px;
+	color: #6A6969;
+
+}
+
+h1{
+	font-size: 20px;
+	margin-bottom: 30px;
+	margin-top: 50px;
+
+}
+
+p {
+	font-size: 14px;
+	text-align: justify;
+	margin-bottom: 20px;
+
+}
+
+#side_img{
+	float: left;
+	margin-top: 100px;
+}
+
+div.content{
+	float: right;
+	height: 800px;
+	width: 670px;
+	padding-left: 65px;
+	padding-right: 65px;
+
+}
+
+.samples_container{
+	height: 140px;
+	width: 1000px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.samples{
+	height: 140px;
+	width: 126px;
+	float: left;
+	margin-right:17px;
+	background-color: #FFFABE;
+	color: #6A6969;
+}
+
+#sunday{
+	margin-right: 0;
+}
+
+
+h1.samples_date_time {
+	font-size: 14px;
+	margin: 15px 0px 0px 10px;
+	padding: 0;
+}
+
+p.samples_date_time {
+	font-size: 12px;
+	margin: 10px 0px 0px 10px;
+	padding: 0;
+
+}
+
+.samples_date_time_container {
+	margin: 0;
+	padding: 0;
+	height: 55px;
+	width: 100%;
+}
+
+.sample_flavor_container{
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	height: 35px;
+	width: 100%;
+}
+
+.sample_flavor_name{
+	float: left;
+	margin: 10px 0px 0px 10px;
+	padding: 0;
+	
+}
+
+.sample_flavor_img{
+	float: right;
+	margin: 5px 10px 0px 0px;
+	padding: 0;
+}
+
+#coconut_container{
+	background-color: #824603;
+	color: white;
+}
+
+#vanilla_container {
+	background-color: #DF5277;
+	color: white;
+}
+
+#lemon_container {
+	background-color: #A2304E;
+	color: white;
+}
+
+#almond_container {
+	background-color: #C39005;
+	color: white;
+}
+
+.footer_container{
+	background-color: #DF5277;
+	height: 80px;
+	width: 1000px;
+}
+
+.footer {
+	float: left;
+	margin: 0px 0px 0px 70px;
+	padding: 0;
+	color: white;
+}
+
+.left{
+	text-align: center;
+	margin-left: 20px;
+}
+
+ .middle{
+    text-align: center;
+    margin-right: 10px;
+ }
+
+.right{
+	text-align: center;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
