@@ -1,6 +1,19 @@
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	color: #515151;
+
+}
+
+body.our_macarons {
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 10px 525px; 
+}
+
+body.gifts_parties {
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 0px 500px; 
 }
 
 #nav_bar{
@@ -48,8 +61,22 @@ li.nav_list {
 	text-transform: uppercase;	
 }
 
-li:hover {
+a:link {
+	text-decoration: none;
+	color: #515151;
+}
+
+a:visited {
+	color: #515151;
+}
+
+a:hover {
 	color: #D42551;
+
+}
+
+a.email_link:link{
+	color:#DF5277;
 }
 
 #background_img{
@@ -59,9 +86,10 @@ li:hover {
 
 .body{
 	display: inline-block;
-	height: 500px;
+	height: 100%;
 	width: 1000px;
 	color: #6A6969;
+	margin-bottom: 50px;
 
 }
 
@@ -86,17 +114,24 @@ p {
 
 div.content{
 	float: right;
-	height: 800px;
+	height: 100%;
 	width: 670px;
 	padding-left: 65px;
 	padding-right: 65px;
 
 }
 
+div.content_our_macarons{
+	height: 100%;
+	width: 900px;
+	padding: 25px 50px 25px 50px;
+	margin-bottom: 50px;
+	display: relative
+}
+
 .samples_container{
 	height: 140px;
 	width: 1000px;
-	margin-top: 50px;
 	margin-bottom: 50px;
 }
 
@@ -130,7 +165,7 @@ p.samples_date_time {
 .samples_date_time_container {
 	margin: 0;
 	padding: 0;
-	height: 55px;
+	height: 60px;
 	width: 100%;
 }
 
@@ -138,7 +173,7 @@ p.samples_date_time {
 	font-size: 12px;
 	margin: 0;
 	padding: 0;
-	height: 35px;
+	height: 33px;
 	width: 100%;
 }
 
@@ -176,6 +211,7 @@ p.samples_date_time {
 }
 
 .footer_container{
+	float: left;
 	background-color: #DF5277;
 	height: 80px;
 	width: 1000px;
@@ -191,6 +227,7 @@ p.samples_date_time {
 .left{
 	text-align: center;
 	margin-left: 20px;
+	margin-right: 10px;
 }
 
  .middle{
@@ -201,6 +238,66 @@ p.samples_date_time {
 .right{
 	text-align: center;
 	margin-right: 15px;
-	margin-left: 15px;
+	margin-left: 10px;
 }
+
+.content_list{
+	margin-bottom: 50px;
+}
+
+p.party_tower{
+	width:500px;
+}
+
+div.content_left{
+	float:left;
+	width: 320px;
+	margin: 0;
+	padding: 0px 0px 0px 25px;
+}
+
+div.content_center{
+	float: left;
+	width: 320px;
+	margin: 0px 0px 0px 50px;
+	padding: 0;
+}
+
+input, textarea {
+	display: block;
+	height: 35px;
+	width: 310px;
+	margin-bottom: 10px;
+	background-color: #F5F5F5;
+	border: none;
+}
+
+textarea {
+	height: 70px;
+}
+
+button {
+	height: 35px;
+	width: 155px;
+	background-color: #F5F5F5;
+	border: none;
+	text-transform: uppercase;
+	text-align: center;
+	float: right;
+}
+
+div.content_right{
+	float:left;
+	height: 100%;
+	width: 250px;
+	margin: 0;
+	padding: 0;
+}
+
+#right_img {
+	position: relative;
+	top: 125px;
+	right: -50px;
+}
+
 
