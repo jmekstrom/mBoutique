@@ -79,6 +79,14 @@ a.email_link:link{
 	color:#DF5277;
 }
 
+a.email_link_footer:link{
+	color: white;
+}
+
+ a.email_link_footer:visited{
+ 	color: white;
+ }
+
 #background_img{
 	height: 400px;
 	width: 1000px;
