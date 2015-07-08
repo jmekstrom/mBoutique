@@ -1,4 +1,464 @@
-@media screen and (max-width: 360px){
 
 
+.body_container{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #515151;
+
+}
+
+body.our_macarons {
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 10px 525px; 
+}
+
+body.gifts_parties {
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 0px 500px; 
+}
+
+#nav_bar{
+	height: 72px;
+	width: 1000px;
+	background: #FFFABE;
+	position: relative;
+}
+
+.nav_items{
+	margin: 0;
+	padding: 0;
+}
+
+#nav_img {
+	position: absolute;
+	top: 20px;
+	left: 30px;
+
+}
+
+#nav_links {
+	float: right;
+	height: 100%;
+	width: 80%;
+	
+}
+ul.nav_list{
+	margin-top: 30px;
+	text-align: center;
+
+
+}
+
+li.nav_list {
+	font-size: 16px;
+	display: inline-block;
+	list-style-type: none;
+	text-align: center;
+	height: 100%;
+	width: auto;
+	margin-right: 50px;
+	padding: 0;
+	text-transform: uppercase;	
+}
+
+a:link {
+	text-decoration: none;
+	color: #515151;
+}
+
+a:visited {
+	color: #515151;
+}
+
+a:hover {
+	color: #D42551;
+
+}
+
+a.email_link:link{
+	color:#DF5277;
+}
+
+a.email_link_footer:link{
+	color: white;
+}
+
+ a.email_link_footer:visited{
+ 	color: white;
+ }
+
+div.background_img{
+	height:400px;
+	width: 1000px;
+}
+
+#background_img{
+	height: auto;
+	width: 100%;
+}
+
+.body{
+	display: inline-block;
+	height: 100%;
+	width: 1000px;
+	color: #6A6969;
+	margin-bottom: 50px;
+
+}
+
+h1{
+	font-size: 20px;
+	margin-bottom: 30px;
+	margin-top: 50px;
+
+}
+
+p {
+	font-size: 14px;
+	text-align: justify;
+	margin-bottom: 20px;
+
+}
+
+#side_img{
+	float: left;
+	margin-top: 100px;
+}
+
+div.content{
+	float: left;
+	height: 100%;
+	width: 670px;
+	padding-left: 65px;
+	padding-right: 65px;
+
+}
+
+div.content_our_macarons{
+	height: 100%;
+	width: 900px;
+	padding: 25px 50px 25px 50px;
+	margin-bottom: 50px;
+	display: relative
+}
+
+.samples_container{
+	height: 140px;
+	width: 1000px;
+	margin-bottom: 50px;
+}
+
+.samples{
+	height: 140px;
+	width: 126px;
+	float: left;
+	margin-right:17px;
+	background-color: #FFFABE;
+	color: #6A6969;
+}
+
+#sunday{
+	margin-right: 0;
+}
+
+
+h1.samples_date_time {
+	font-size: 14px;
+	margin: 15px 0px 0px 10px;
+	padding: 0;
+}
+
+p.samples_date_time {
+	font-size: 12px;
+	margin: 10px 0px 0px 10px;
+	padding: 0;
+
+}
+
+.samples_date_time_container {
+	margin: 0;
+	padding: 0;
+	height: 60px;
+	width: 100%;
+}
+
+.sample_flavor_container{
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	height: 33px;
+	width: 100%;
+}
+
+.sample_flavor_name{
+	float: left;
+	margin: 10px 0px 0px 10px;
+	padding: 0;
+	
+}
+
+.sample_flavor_img{
+	float: right;
+	margin: 5px 10px 0px 0px;
+	padding: 0;
+}
+
+#coconut_container{
+	background-color: #824603;
+	color: white;
+}
+
+#vanilla_container {
+	background-color: #DF5277;
+	color: white;
+}
+
+#lemon_container {
+	background-color: #A2304E;
+	color: white;
+}
+
+#almond_container {
+	background-color: #C39005;
+	color: white;
+}
+
+.footer_container{
+	float: left;
+	background-color: #DF5277;
+	height: 80px;
+	width: 1000px;
+}
+
+.footer {
+	float: left;
+	margin: 0px 0px 0px 70px;
+	padding: 0;
+	color: white;
+}
+
+.left{
+	text-align: center;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+
+ .middle{
+    text-align: center;
+    margin-right: 10px;
+ }
+
+.right{
+	text-align: center;
+	margin-right: 15px;
+	margin-left: 10px;
+}
+
+.content_list{
+	margin-bottom: 50px;
+}
+
+p.party_tower{
+	width:500px;
+}
+
+div.content_left{
+	float:left;
+	width: 320px;
+	margin: 0;
+	padding: 0px 0px 0px 25px;
+}
+
+div.content_center{
+	float: left;
+	width: 320px;
+	margin: 0px 0px 0px 50px;
+	padding: 0;
+}
+
+input, textarea {
+	display: block;
+	height: 35px;
+	width: 310px;
+	margin-bottom: 10px;
+	background-color: #F5F5F5;
+	border: none;
+}
+
+textarea {
+	height: 70px;
+}
+
+button {
+	height: 35px;
+	width: 155px;
+	background-color: #F5F5F5;
+	border: none;
+	text-transform: uppercase;
+	text-align: center;
+	float: right;
+}
+
+div.content_right{
+	float:left;
+	height: 100%;
+	width: 250px;
+	margin: 0;
+	padding: 0;
+}
+
+#right_img {
+	position: relative;
+	top: 125px;
+	right: -50px;
+}
+
+input[type="checkbox"]{
+	display: none;
+}
+
+
+/*Repsonive CSS Code using media queries*/
+
+/*Tablet Level*/
+@media screen and (max-width: 768px){
+
+	#nav_bar{
+	height: 72px;
+	width: 100%;
+	background: #FFFABE;
+	position: relative;
+}
+
+input[type="checkbox"] + label {
+	background-image: url(https://cdn3.iconfinder.com/data/icons/eightyshades/512/45_Menu-24.png);
+	background-repeat: none;
+	height: 24px;
+	width: 24px;
+	display: inline-block;
+}
+
+input[type="checkbox"]:checked + label {
+	background-image: url(https://cdn3.iconfinder.com/data/icons/eightyshades/512/18_Close-24.png);
+	background-repeat: none;
+	height: 24px;
+	width: 24px;
+}
+
+input[type="checkbox"] + label ul{
+	display: none;
+}
+
+input[type="checkbox"]:checked + label ul{
+	display: inline-block;
+	list-style: none;
+	text-decoration: none;
+	margin-left: -175px;
+	background-color: lightblue;
+	color: white;
+	width: 200px;
+	border: 1px solid;
+	padding: 0;
+	border-radius: 5px;
+}
+
+input[type="checkbox"]:checked + label li{
+	text-align: center;
+	display: block;
+	margin: 5px;
+}
+
+
+div.nav_items{
+	float: left;
+}
+
+#nav_links{
+	width: 50px;
+	float: right;
+	margin-top: 25px;
+}
+
+li{
+	width: 200px;
+	text-align: left;
+}
+
+	.body_container{
+		max-width: 768px;
+		width: 95%;
+		margin: 0 5px 0 5px;
+	}
+
+	div.background_img{
+		height:auto;
+		width: 100%;
+	}
+
+	#background_img{
+		height: auto;
+		width: 100%;
+	}
+
+	div.body{
+		height: auto;
+		width:100%;
+	}
+
+	div.content{
+		height: auto;
+		width: 50%;
+		margin: 3%;
+		padding: 0;
+	}
+
+	#side_img{
+		height: auto;
+		width: 35%;
+		margin: 3%;
+		margin-top: 50px;
+	}
+
+	div.samples_container{
+		height: auto;
+		width: 70%;
+		padding: auto;
+		float: right;
+	}
+
+	div.samples{
+		margin: 0 5% 20px 5%;
+	}
+
+	.footer_container{
+	height: auto;
+	width: 100%;
+	}
+
+	.footer{
+		width: 100%;
+		display: block;
+		float: none;
+		margin-left: 0;
+	}
+
+}
+
+/*Mobile Level*/
+@media screen and (max-width: 320px){
+	#side_img{
+		display:none;
+	}
+	div.content{
+		height: auto;
+		width: 95%;
+		margin: 3%;
+		padding: 0;
+	}
 }
