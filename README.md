@@ -52,3 +52,28 @@ Use the following title for your pull request
 <a href="https://github.com/Learning-Fuze/C5_mboutique/tree/assignment_3#mboutique" target="_blank">Click here for assignment 3</a>
 
 <a href="https://github.com/Learning-Fuze/C5_mboutique/tree/assignment_4#mboutique" target="_blank">Click here for assignment 4</a>
+
+### Status Updates
+
+As you complete each assignment send a commit message
+
+Commit Message:
+- `Assignment # [complete]`
+- Replace the # with the actual assignment number (1, 2, or 3)
+
+A final commit message is due by Sunday 7/5/2015 @ 9pm
+
+Commit Message:
+- `assignments 2-4 [status]`
+- Replace status with your status:
+	- complete
+	- incomplete
+	- roadblock
+
+### Pull Request
+
+A pull request for all 3 assignments (2-4) is due by Monday 7/6/2015 @ 10am
+
+Use the following title for your pull request:
+- `Your Name - PR#1 [mboutique_complete]`
+- Replace "Your Name" with your actual first and last name
