@@ -1,7 +1,13 @@
+
+
+.body_container{
+	width: 1000px;
+	margin: 0 auto;
+}
+
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	color: #515151;
-
 }
 
 body.our_macarons {
@@ -36,7 +42,6 @@ body.gifts_parties {
 }
 
 #nav_links {
-	vertical-align: middle;
 	float: right;
 	height: 100%;
 	width: 80%;
@@ -87,9 +92,14 @@ a.email_link_footer:link{
  	color: white;
  }
 
-#background_img{
-	height: 400px;
+div.background_img{
+	height:400px;
 	width: 1000px;
+}
+
+#background_img{
+	height: auto;
+	width: 100%;
 }
 
 .body{
@@ -121,7 +131,7 @@ p {
 }
 
 div.content{
-	float: right;
+	float: left;
 	height: 100%;
 	width: 670px;
 	padding-left: 65px;
@@ -308,4 +318,146 @@ div.content_right{
 	right: -50px;
 }
 
+input[type="checkbox"]{
+	display: none;
+}
 
+
+/*Repsonive CSS Code using media queries*/
+
+/*Tablet Level*/
+@media screen and (max-width: 768px){
+
+	#nav_bar{
+	height: 72px;
+	width: 100%;
+	background: #FFFABE;
+	position: relative;
+}
+
+input[type="checkbox"] + label {
+	background-image: url(https://cdn3.iconfinder.com/data/icons/eightyshades/512/45_Menu-24.png);
+	background-repeat: none;
+	height: 24px;
+	width: 24px;
+	display: inline-block;
+}
+
+input[type="checkbox"]:checked + label {
+	background-image: url(https://cdn3.iconfinder.com/data/icons/eightyshades/512/18_Close-24.png);
+	background-repeat: none;
+	height: 24px;
+	width: 24px;
+}
+
+input[type="checkbox"] + label ul{
+	display: none;
+}
+
+input[type="checkbox"]:checked + label ul{
+	display: inline-block;
+	list-style: none;
+	text-decoration: none;
+	margin-left: -175px;
+	background-color: lightblue;
+	color: white;
+	width: 200px;
+	border: 1px solid;
+	padding: 0;
+	border-radius: 5px;
+}
+
+input[type="checkbox"]:checked + label li{
+	text-align: center;
+	display: block;
+	margin: 5px;
+}
+
+
+div.nav_items{
+	float: left;
+}
+
+#nav_links{
+	width: 50px;
+	float: right;
+	margin-top: 25px;
+}
+
+li{
+	width: 200px;
+	text-align: left;
+}
+
+	.body_container{
+		max-width: 768px;
+		width: 95%;
+		margin: 0 5px 0 5px;
+	}
+
+	div.background_img{
+		height:auto;
+		width: 100%;
+	}
+
+	#background_img{
+		height: auto;
+		width: 100%;
+	}
+
+	div.body{
+		height: auto;
+		width:100%;
+	}
+
+	div.content{
+		height: auto;
+		width: 50%;
+		margin: 3%;
+		padding: 0;
+	}
+
+	#side_img{
+		height: auto;
+		width: 35%;
+		margin: 3%;
+		margin-top: 50px;
+	}
+
+	div.samples_container{
+		height: auto;
+		width: 70%;
+		padding: auto;
+		float: right;
+	}
+
+	div.samples{
+		margin: 0 5% 20px 5%;
+	}
+
+	.footer_container{
+	height: auto;
+	width: 100%;
+	}
+
+	.footer{
+		width: 100%;
+		display: block;
+		float: none;
+		margin-left: 0;
+	}
+
+}
+
+/*Mobile Level*/
+@media screen and (max-width: 320px){
+	#side_img{
+		display:none;
+	}
+	div.content{
+		height: auto;
+		width: 95%;
+		margin: 3%;
+		padding: 0;
+	}
+}
