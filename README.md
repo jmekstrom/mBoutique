@@ -25,4 +25,4 @@ Mobile responsive and built purely with html and css.
    ![Alt text](/screenshots/pic6.png)
 
 <h2>Link to Live Preview:</h2>
-<a href="http://jasonekstrom.com/mBoutique" target="_blank">Click here to see a live preview</a>
+<a href="http://jmekstrom.github.io/mBoutique" target="_blank">Click here to see a live preview</a>
